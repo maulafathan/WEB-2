@@ -48,8 +48,8 @@ require_once "data-register.php"
             <label for="jenis_kelamin_0" class="custom-control-label">laki-laki</label>
         </div>
         <div class="custom-control custom-radio custom-control-inline">
-            <input name="jenis_kelamin" id="jenis_kelamin_0" type="radio" class="custom-control-input" value="perempuan" required="required"> 
-            <label for="jenis_kelamin_0" class="custom-control-label">perempuan</label>
+            <input name="jenis_kelamin" id="jenis_kelamin_1" type="radio" class="custom-control-input" value="perempuan" required="required"> 
+            <label for="jenis_kelamin_1" class="custom-control-label">perempuan</label>
         </div>
     </div>
 </div>

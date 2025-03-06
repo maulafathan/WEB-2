@@ -6,6 +6,15 @@ $nilai_uts = $_POST['nilai_uts'];
 $nilai_uas = $_POST['nilai_uas'];
 $nilai_tugas = $_POST['nilai_tugas'];
 
+if (!empty($proses)) {
+    echo 'Proses : ' . $proses;
+    echo '<br/>Nama : '.$nama_siswa;
+    echo '<br/>Mata Kuliah : '.$mata_kuliah;
+    echo '<br/>Nilai UTS : '.$nilai_uts;
+    echo '<br/>Nilai UAS : '.$nilai_uas;
+    echo '<br/>Nilai Tugas Praktikum : ',$nilai_tugas;
+}
+
 /*
 - Mendefinisikan Variabel
 - Nilai Akhir
@@ -39,12 +48,5 @@ $nilai_tugas = $_POST['nilai_tugas'];
 */
 
 // MENCETAK HASIL
-if (!empty($proses)) {
-    echo 'Proses : ' . $proses;
-    echo '<br/>Nama : ' . $nama_siswa;
-    echo '<br/>Mata Kuliah : ' . $mata_kuliah;
-    echo '<br/>Nilai UTS : ' . $nilai_uts;
-    echo '<br/>Nilai UAS : ' . $nilai_uas;
-    echo '<br/>Nilai Tugas Praktikum : ' . $nilai_tugas;
-    // Mencetak Nilai Akhir, Status, Grade, dan Predikat
-}
+
+?>
