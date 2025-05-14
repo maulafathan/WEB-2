@@ -4,7 +4,7 @@
     <div class="float-right d-none d-sm-block">
       Student at STT Nurul Fikri
     </div>
-    <a href="https://adminlte.io">Naila Sakinah Dapa</a></strong>
+    <a href="https://adminlte.io">Maula Fathan Gibran Lubis</a></strong>
   </footer>
 
   <!-- Control Sidebar -->
