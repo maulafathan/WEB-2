@@ -1,4 +1,12 @@
-#!/usr/bin/env php
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+// Create a log channel
+$log = new Logger('laravel');
+$log->pushHandler(new StreamHandler(__DIR__.'/storage/logs/laravel.log', Logger::DEBUG));
+
+// Log a message
+$log->info('Laravel application started');#!/usr/bin/env php
 <?php
 
 use Illuminate\Foundation\Application;
